@@ -14,7 +14,7 @@ class FibonacciExample1 {
       n1 = n2;
       n2 = n3;
     }
-    for (int k = 2; k < 10; ++k) { //loop starts from 2 because 0 and 1 are already printed
+    for (int k = 2; k < 30; ++k) { //loop starts from 2 because 0 and 1 are already printed
       n3 = n1 + n2;
       System.out.print(" " + n3);
       n1 = n2;
