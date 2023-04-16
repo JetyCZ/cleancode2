@@ -1,8 +1,6 @@
 package net.jetensky.cleancode.spagetti;
 
 import javax.swing.*;
-import javax.swing.border.*;
-import javax.accessibility.*;
 
 import java.awt.*;
 import java.awt.event.*;
@@ -38,7 +36,7 @@ public class LayeredPaneDemo extends JPanel
     setLayout(new BoxLayout(this, BoxLayout.PAGE_AXIS));
 
     //Create and load the duke icon.
-    final ImageIcon icon = createImageIcon("images/dukeWaveRed.gif");
+    final ImageIcon icon = createImageIcon("/images/dukeWaveRed.gif");
 
     //Create and set up the layered pane.
     layeredPane = new JLayeredPane();
